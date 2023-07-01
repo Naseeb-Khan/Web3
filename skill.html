@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="skill.css" />
+    <title>porfolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <div class="tittle"><h1>Porfolio</h1></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="skill.html" class="activ">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="berger" onclick="khan()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </div>
+    <div class="contaner">
+      <div class="boxs">
+        <div class="box1">
+          <h2>ul/ux designer</h2>
+          <p>
+            UX design, or user experience design, is the process of creating
+            products and experiences that help users get done what they’ve come
+            to do—as efficiently and effectively as possible.s the process of
+            understanding and empathizing with the actual needs and goals of
+            your users, diving into that user experience, locating the problems
+            (often called “pain points”), and finding solutions that result in a
+            better user experience.
+          </p>
+        </div>
+        <div class="box2">
+          <h2>Web designer</h2>
+          <p>
+            compasses many different skills and disciplines in the production
+            and maintenance of websites. The different areas of web design
+            include web graphic design; user interface design (UI design);
+            authoring, including standardised code and proprietary software;
+            user experience design (UX design); and search engine optimization.
+          </p>
+        </div>
+        <div class="box3">
+          <h2>Front-end-developer</h2>
+          <p>
+            Front-end web development is the development of the graphical user
+            interface of a website, through the use of HTML, CSS, and
+            JavaScript, so that users can view and interact with that
+            website.HyperText Markup Language (HTML) is the backbone of any
+            website development process, without which a web page does not
+            exist. Hypertext means that text has links, termed hyperlinks,
+            embedded in it.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let a = document.querySelector("ul");
+      function khan() {
+        a.classList.toggle("reponsiv");
+      }
+    </script>
+  </body>
+</html>

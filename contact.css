@@ -1,0 +1,430 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: sans-serif;
+}
+body{
+    background-color: #1f242d;
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+.titile h1{
+    font-size: 40px;
+    color: white;
+    animation: tit 3s ease ;
+}
+@keyframes tit {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+ul li a{
+      color: rgb(255, 255, 255);
+      font-size: 23px;
+      text-decoration: none;
+      animation: a 4s ease;
+}
+@keyframes a {
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+ul li a:hover{
+    color: #0ef;
+}
+.activ{
+    color: #0ef;
+}
+.cotact{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+color: white;
+    align-items: center;
+}
+.sc h1{
+    font-size: 30px;
+   
+
+
+}
+.sc{
+  
+}
+.hed h1{
+    color: #0ef;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+animation: sc 2s ease;
+    
+}
+@keyframes sc {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
+.facbbok{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 40px;
+    animation: fc 3s ease;
+}
+@keyframes fc {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.inta{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 40px;
+    animation: in 3.4s ease;
+}
+@keyframes in{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.eamil{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 40px;
+    animation: ea 4s ease;
+}
+@keyframes ea {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.twitter{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 40px;
+    animation: tt 4s ease;
+}
+@keyframes tt {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.YouTuber{
+    display: flex;  margin-top: 20px;
+    padding-left: 40px;
+    animation: yo 4.4s ease;
+}
+@keyframes yo {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+i{
+    color: #0ef;
+    width: 50px;
+    
+    
+}
+.bx{
+    font-size: 40px;
+}
+.loginpage{
+   position: relative;
+}
+.loginfom{
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+.right{
+    width: 30%;
+   
+    height: 500px;
+}
+@keyframes log {
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.left p{
+    font-size: 28px;
+    line-height: 35px;
+    padding-left: 20px;
+    margin-top: 50px;
+    color: white;
+    word-spacing: 8px;
+}
+.right{
+    animation: log 4s ease;
+    width: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center
+   
+    
+}
+ .form input{
+    margin-top: 10px;
+    width: 230px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+ }
+
+   
+    
+    
+
+.form{
+    animation: log 4s ease;
+    margin-top: 50px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+    background-color: transparent;
+    padding-top: 20px;
+    border:3px solid rgb(0, 0, 0) ;
+   border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.842);
+}
+label h1{
+    
+   margin-top: 40px;
+   margin-bottom: 50px;
+    color: white;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    background-color: transparent;
+    
+    border-radius: 50px;
+    
+}
+.formbtn{
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+    margin-top:15px ;
+    border-radius: 50px;
+    background-color:#0ef;
+    cursor: pointer;
+    color:white;}
+
+    .berger{
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        display: none;
+
+    }
+    .line1{
+        width: 40px;
+        height: 4px;
+        background-color: white;
+    }
+    .line2{
+        width: 40px;
+        height: 4px;
+        background-color: white;
+        margin-top: 5px;
+    }
+    .line3{
+        width: 40px;
+        height: 4px;
+        background-color: white;
+        margin-top: 5px;
+    }
+
+    @media (max-width:960px){
+        .cotact{
+            justify-content: space-between;
+        }
+        .form{
+            margin-right: 30px;
+        }
+    }
+
+
+    @media (max-width:903px){
+        .cotact{
+            justify-content: space-between;
+        }
+        .form{
+           width: 300px;
+           height: 300px;
+        }
+        .sc h1{
+            font-size: 30px;
+        }
+        label h1{
+            margin-bottom: 15px;
+        }
+    }
+
+    @media (max-width:797px){
+.cotact{
+    display: flex;
+    flex-direction: column;
+  
+}
+.hed h1{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.sc{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+   left: 10px;
+}
+.YouTuber{
+    margin-bottom:50px;
+}
+.formbtn{
+    margin-bottom: 50px;
+}
+.form{
+    width: 350px;
+    height: 400px;
+}
+.loginfom{
+    height: 400px;
+}
+    }
+@media (max-width:715px){
+    
+    nav{
+        justify-content: space-between;
+    }
+    ul{
+        display: none;
+     }
+     .berger{
+        display: block;
+     }
+     nav{
+       justify-content: left;
+     }
+     .titile{
+        height: 5px;
+        width: 5px;
+        align-items: none;
+       
+       
+     }
+     .responsiv{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+     }
+     .titile h1{
+        font-size: 25px;
+     }
+     .hed h1{
+        margin-top: 50px;
+        font-size:80px;
+     }
+     .sc h1{
+        font-size: 28px;
+     }
+     .form{
+        margin-right: 0px;
+        width: 300px;
+     }
+
+}
+
+@media (max-width:437px){
+
+.facbbok{
+    padding-left: 20px;
+}
+.inta{
+    padding-left: 20px;
+}
+.twitter{
+    padding-left: 20px;
+}
+.eamil{
+    padding-left: 20px;
+}
+.YouTuber{
+    padding-left: 20px;
+}
+.sc h1{
+    font-size: 25px;
+}
+.hed h1{
+    font-size: 35px;
+}
+}
+
+    
